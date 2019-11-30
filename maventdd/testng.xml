@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Pragra Test Suite" parallel="tests" >
+    <parameter name="broswer" value="FIREFOX"></parameter>
+    <parameter name="testname" value="ATIN"></parameter>
+    <test name="Frontend">
+        <classes>
+            <class name="co.pragra.test.CalculatorTest">
+                <parameter name="abc" value="Learning to pass param"></parameter>
+            </class>
+<!--            <class name="co.pragra.test.DummyTest"></class>-->
+        </classes>
+    </test>
+
+    <test name="BackEnd" enabled="false">
+        <classes>
+            <class name="co.pragra.test.CalculatorTest"></class>
+            <class name="co.pragra.test.DummyTest"></class>
+        </classes>
+    </test>
+</suite>
