@@ -4,6 +4,8 @@ import co.pragra.app.Calculator;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+import java.lang.annotation.Inherited;
+
 public class CalculatorTest {
     private Calculator calculator;
     static int i = 0;
@@ -15,18 +17,12 @@ public class CalculatorTest {
     }
 
     @BeforeClass
-    @Parameters({"broswer", "testname"})
-    public void setUp(String broswer, String name) {
-        System.out.println("Got Broswer "+ broswer);
-        System.out.println("Got NAME "+ name);
+    @Ignore
+    //@Parameters({"broswer", "testname"})
+    public void setUp() {
         System.out.println("Running for the class Calculator Test");
     }
 
-    @BeforeClass
-    public void setUp() {
-      //  System.out.println("Got this "+ data);
-
-    }
 
     //    @Test(groups = {"sanity", "uat"})
 //    public void sumTC1(){
@@ -34,12 +30,14 @@ public class CalculatorTest {
 //    }
 
     @Test()
-    @Parameters("abc")
-    public void testMultipication(String test) {
-        System.out.println("***** GOT IN TEST **** "+ test);
+    @Ignore
+
+    public void testMultipication() {
+        //System.out.println("***** GOT IN TEST **** "+ test);
         Assert.assertEquals(calculator.multiply(3,5), 15);
     }
 
+    @Ignore
     @Test(dependsOnMethods = "testMultipication" , invocationCount = 5, successPercentage = 79)
     public void testDivide() throws InterruptedException {
         if(i==3 || i ==2){
