@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Smoke" parallel="tests">
+
+    <test name="FireFoxSmoke">
+        <parameter name="browser" value="firefox"></parameter>
+        <parameter name="platform" value="WINDOWS"></parameter>
+        <classes>
+            <class name="GridTest"></class>
+        </classes>
+    </test>
+    <test name="CromeSmoke">
+        <parameter name="browser" value="internet explorer"></parameter>
+        <parameter name="platform" value="WINDOWS"></parameter>
+        <classes>
+            <class name="GridTest"></class>
+        </classes>
+    </test>
+</suite>
