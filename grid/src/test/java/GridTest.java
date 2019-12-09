@@ -22,18 +22,18 @@ public class GridTest {
             FirefoxOptions options = new FirefoxOptions();
             options.setCapability("browserName","firefox");
             options.setCapability("platform", platform);
-            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),options);
+            driver = new RemoteWebDriver(new URL("http://92.168.51.107:4444/wd/hub"),options);
         }else
         if(browser.equals("internet explorer")){
             InternetExplorerOptions options = new InternetExplorerOptions();
             options.setCapability("browserName","internet explorer");
             options.setCapability("platform", platform);
-            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),options);
+            driver = new RemoteWebDriver(new URL("http://92.168.51.107:4444/wd/hub"),options);
         }else{
             ChromeOptions options = new ChromeOptions();
             options.setCapability("browserName","chrome");
             options.setCapability("platform", platform);
-            driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),options);
+            driver = new RemoteWebDriver(new URL("http://92.168.51.107:4444/wd/hub"),options);
         }
 
     }
