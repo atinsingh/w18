@@ -1,0 +1,27 @@
+2020-01-14 21:13:31.508 [main] INFO  DriverManager - Initializing driver for browser type firefox 
+2020-01-14 21:13:31.511 [main] ERROR DriverManager - Browser firefox doesn't match with configutation defaulting to CHROME
+2020-01-14 21:13:32.699 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (ccad04e967f452adb918d14c0b41aaf4) 
+2020-01-14 21:13:39.381 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (ccad04e967f452adb918d14c0b41aaf4) 
+2020-01-14 21:14:57.833 [main] INFO  DriverManager - Initializing driver for browser type firefox 
+2020-01-14 21:14:57.836 [main] ERROR DriverManager - Browser firefox doesn't match with configutation defaulting to CHROME
+2020-01-14 21:14:59.209 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (6f37d19311e3a2926b00200567ee4116) 
+2020-01-14 21:15:04.322 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (6f37d19311e3a2926b00200567ee4116) 
+2020-01-14 21:15:19.124 [main] INFO  DriverManager - Initializing driver for browser type firefox 
+2020-01-14 21:15:19.126 [main] ERROR DriverManager - Browser firefox doesn't match with configutation defaulting to CHROME
+2020-01-14 21:15:20.298 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (ebcfd2297cf7ce3f507fc220b1090835) 
+2020-01-14 21:15:25.595 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (ebcfd2297cf7ce3f507fc220b1090835) 
+2020-01-14 21:15:57.331 [main] INFO  DriverManager - Initializing driver for browser type firefox 
+2020-01-14 21:16:00.360 [main] INFO  DriverManager - Returning the driver instance FirefoxDriver: firefox on MAC (f875e2b0-17a4-c440-9a34-28b89e218c3c) 
+2020-01-14 21:16:05.786 [main] INFO  DriverManager - Returning the driver instance FirefoxDriver: firefox on MAC (f875e2b0-17a4-c440-9a34-28b89e218c3c) 
+2020-01-14 21:20:21.392 [main] FATAL co.pragra.b18.config.FrameWorkConfig - Check if file  src/test/resources/framework.properties  exists
+2020-01-14 21:20:21.395 [main] FATAL co.pragra.b18.config.FrameWorkConfig - src/test/resources/framework.properties (No such file or directory)
+2020-01-14 21:20:21.395 [main] FATAL co.pragra.b18.config.FrameWorkConfig - Exiting the run
+2020-01-14 21:21:02.940 [main] INFO  DriverManager - Initializing driver for browser type firefox 
+2020-01-14 21:21:05.546 [main] INFO  DriverManager - Returning the driver instance FirefoxDriver: firefox on MAC (190bddea-7b38-744a-a3d9-81f9f5bb9621) 
+2020-01-14 21:21:11.395 [main] INFO  DriverManager - Returning the driver instance FirefoxDriver: firefox on MAC (190bddea-7b38-744a-a3d9-81f9f5bb9621) 
+2020-01-14 21:54:13.437 [main] INFO  DriverManager - Initializing driver for browser type firefox 
+2020-01-14 21:54:16.306 [main] INFO  DriverManager - Returning the driver instance FirefoxDriver: firefox on MAC (e443eaee-e7ee-334c-8380-c7fe1544c8e7) 
+2020-01-14 21:55:33.187 [main] INFO  DriverManager - Initializing driver for browser type firefox 
+2020-01-14 21:55:35.913 [main] INFO  DriverManager - Returning the driver instance FirefoxDriver: firefox on MAC (6efb91f7-fb1a-fd4f-b9f1-5336bd02829d) 
+2020-01-14 21:56:09.028 [main] INFO  DriverManager - Initializing driver for browser type firefox 
+2020-01-14 21:56:11.594 [main] INFO  DriverManager - Returning the driver instance FirefoxDriver: firefox on MAC (a8ccbb85-8598-9548-a9a1-e437d57d94d3) 
