@@ -25,3 +25,31 @@
 2020-01-14 21:55:35.913 [main] INFO  DriverManager - Returning the driver instance FirefoxDriver: firefox on MAC (6efb91f7-fb1a-fd4f-b9f1-5336bd02829d) 
 2020-01-14 21:56:09.028 [main] INFO  DriverManager - Initializing driver for browser type firefox 
 2020-01-14 21:56:11.594 [main] INFO  DriverManager - Returning the driver instance FirefoxDriver: firefox on MAC (a8ccbb85-8598-9548-a9a1-e437d57d94d3) 
+2020-01-14 21:57:41.572 [main] INFO  DriverManager - Initializing driver for browser type firefox 
+2020-01-14 21:57:44.117 [main] INFO  DriverManager - Returning the driver instance FirefoxDriver: firefox on MAC (7c4ae7a5-ac6f-6a4a-9923-db21262c03ab) 
+2020-01-18 10:27:00.893 [main] INFO  DriverManager - Initializing driver for browser type firefox 
+2020-01-18 10:27:05.405 [main] INFO  DriverManager - Returning the driver instance FirefoxDriver: firefox on MAC (40ff9d2c-97b1-b242-a224-c2f35fedccdb) 
+2020-01-18 10:29:34.381 [main] INFO  DriverManager - Initializing driver for browser type chrome 
+2020-01-18 10:29:36.187 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (6c69174c87da9d0a9097764338454be5) 
+2020-01-18 10:29:40.832 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (null) 
+2020-01-18 10:29:40.834 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (null) 
+2020-01-18 10:30:51.979 [main] INFO  DriverManager - Initializing driver for browser type chrome 
+2020-01-18 10:30:53.170 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (598b33b363682620434a2be68d92dd95) 
+2020-01-18 10:30:54.907 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (598b33b363682620434a2be68d92dd95) 
+2020-01-18 10:35:29.332 [main] INFO  DriverManager - Initializing driver for browser type chrome 
+2020-01-18 10:35:30.676 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (a70a3192519eac375f1b0496e8aa8d25) 
+2020-01-18 10:35:32.519 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (a70a3192519eac375f1b0496e8aa8d25) 
+2020-01-18 10:36:18.186 [main] INFO  DriverManager - Initializing driver for browser type chrome 
+2020-01-18 10:36:19.408 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (d0cada71df6e47b4d8f8ef049921158a) 
+2020-01-18 10:36:21.126 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (d0cada71df6e47b4d8f8ef049921158a) 
+2020-01-18 10:36:53.008 [main] INFO  DriverManager - Initializing driver for browser type chrome 
+2020-01-18 10:36:54.191 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (6f778b0d1cae52ecbd721103a240b56d) 
+2020-01-18 10:36:55.933 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (6f778b0d1cae52ecbd721103a240b56d) 
+2020-01-18 10:39:24.407 [main] INFO  DriverManager - Initializing driver for browser type chrome 
+2020-01-18 10:39:25.622 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (a0336cd1dd12f4b1a1680edcc6c07bc7) 
+2020-01-18 10:39:29.539 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (a0336cd1dd12f4b1a1680edcc6c07bc7) 
+2020-01-18 10:40:25.497 [main] INFO  DriverManager - Initializing driver for browser type chrome 
+2020-01-18 10:40:26.689 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (ea66c3417c1b16f608aa35a4341d133b) 
+2020-01-18 10:40:30.659 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (ea66c3417c1b16f608aa35a4341d133b) 
+2020-01-18 11:28:04.054 [main] INFO  DriverManager - Initializing driver for browser type chrome 
+2020-01-18 11:28:05.461 [main] INFO  DriverManager - Returning the driver instance ChromeDriver: chrome on MAC (189a5364d51ce2f64513d320b62a8a2d) 
