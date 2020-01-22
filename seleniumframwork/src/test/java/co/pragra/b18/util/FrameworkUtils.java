@@ -16,7 +16,7 @@ import java.util.Date;
 
 public class FrameworkUtils {
 
-    private static String dateFormat = "dd/MM/yyyy";
+    private static String dateFormat = "ddMMyyyyHHmm";
 
     // Pass screenshots goes in dir
     // target/screenshot/pass
@@ -71,6 +71,20 @@ public class FrameworkUtils {
         }catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public static File getReportFileName(){
+        Path file = null;
+        try {
+            Files.createDirectories(Paths.get(FrameWorkConfig.getProperty("report.dir")));
+            String fileName = FrameWorkConfig.getProperty("report.fileprefix")+"_"+formatDate(new Date())+".html";
+            file = Paths.get(FrameWorkConfig.getProperty("report.dir"), fileName);
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return file.toFile();
     }
 
 }
